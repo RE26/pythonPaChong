@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="65e334ee61274943b924232cb9c97304" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_65e334ee61274943b924232cb9c97304 = echarts.init(
+            document.getElementById('65e334ee61274943b924232cb9c97304'), 'white', {renderer: 'canvas'});
+        var option_65e334ee61274943b924232cb9c97304 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "\u8bc4\u5206",
+            "data": [
+                [
+                    "8.1",
+                    "9.1",
+                    "8.0",
+                    "7.0",
+                    "8.3",
+                    "6.3",
+                    "8.8",
+                    "6.1",
+                    "7.7",
+                    "7.4"
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u8bc4\u5206"
+            ],
+            "selected": {},
+            "selectedMode": "single",
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "radar": [
+        {
+            "indicator": [
+                {
+                    "name": "\u8001\u72d0\u72f8",
+                    "max": 10
+                },
+                {
+                    "name": "\u673a\u5668\u4eba\u4e4b\u68a6 Robot Dreams",
+                    "max": 10
+                },
+                {
+                    "name": "\u767d\u65e5\u4e4b\u4e0b",
+                    "max": 10
+                },
+                {
+                    "name": "\u53ef\u601c\u7684\u4e1c\u897f Poor Things",
+                    "max": 10
+                },
+                {
+                    "name": "\u5b8c\u7f8e\u7684\u65e5\u5b50 Perfect Days",
+                    "max": 10
+                },
+                {
+                    "name": "\u65b0\u5a01\u9f99\u6740\u9635 Road House",
+                    "max": 10
+                },
+                {
+                    "name": "\u9996\u5c14\u4e4b\u6625 \uc11c\uc6b8\uc758 \ubd04",
+                    "max": 10
+                },
+                {
+                    "name": "\u91d1\u624b\u6307",
+                    "max": 10
+                },
+                {
+                    "name": "\u7f8e\u56fd\u5c0f\u8bf4 American Fiction",
+                    "max": 10
+                },
+                {
+                    "name": "\u5229\u76ca\u533a\u57df The Zone of Interest",
+                    "max": 10
+                }
+            ],
+            "startAngle": 90,
+            "name": {
+                "textStyle": {}
+            },
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "splitArea": {
+                "show": true,
+                "areaStyle": {
+                    "opacity": 0
+                }
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u8bc4\u5206\u5bf9\u6bd4\u56fe",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_65e334ee61274943b924232cb9c97304.setOption(option_65e334ee61274943b924232cb9c97304);
+    </script>
+</body>
+</html>
